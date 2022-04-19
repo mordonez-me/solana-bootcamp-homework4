@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ArWeave />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ArWeave from "./components/ArWeave.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    ArWeave,
+  },
+};
 </script>
 
 <style>
